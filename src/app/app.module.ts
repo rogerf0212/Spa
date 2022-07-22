@@ -16,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
 
 @NgModule({
   imports:      [ 
@@ -32,7 +33,8 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     AboutComponent,
     HeroesComponent,
     HomeComponent,
-    HeroeComponent ],
+    HeroeComponent,
+    BuscadorComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
